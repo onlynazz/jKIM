@@ -8,7 +8,7 @@ const nextPageButton = document.getElementById('nextPageButton');
 const loveEffect = document.querySelector('.love-effect');
 
 const messages = [
-    "Happy Valentine's Day!",
+    "Happy Valentine's Day Beeeee!",
     "More katawa, trippings, laag, bembang og more years to cum.",
     "OJT journey nimu og mga bilar nights sa school activities ez rana nimu.",
     "Syempre og need lambing kay gikapoy naa rako alangan.",
@@ -44,7 +44,7 @@ function showMessageWithTypingAnimation() {
 }
 
 function createLoveEffect() {
-    const emojis = ["💖", "😍", "💌", "🥰", "💕", "💘", "💓", "💞"];
+    const emojis = ["💖", "😽", "💌", "😻", "💕", "💗", "😉", "💞"];
     for (let i = 0; i < 50; i++) { 
         const span = document.createElement('span');
         span.textContent = emojis[Math.floor(Math.random() * emojis.length)];
